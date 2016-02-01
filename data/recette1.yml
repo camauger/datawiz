@@ -1,0 +1,40 @@
+---
+source: "http://www.ricardocuisine.com/recettes/6392-risotto-de-base"
+title: "RISOTTO DE BASE"
+preparation-time: "20 min"
+cooking-time: "25 min"
+number-of-persons: 4
+ingredients: [
+  {name: oignon,
+  quantity: 1,
+  preparation: "finement haché"},
+  {name: beurre,
+   quantity: "60 ml"
+  },
+  {name: "riz arborio",
+   quantity: "500 ml"
+  },
+  {name: "vin blanc",
+   quantity: 250 ml
+  },
+  {name: "bouillon de poulet",
+   quantity: "1.5 L - 2 L",
+   preparation: chaud
+  },
+  {name: "fromage parmigiano reggiano",
+   quantity: "250 ml"
+   preparation: râpé
+  }
+  ]
+preparation-steps: [
+"Dans une grande casserole, attendrir l’oignon dans la moitié du beurre. Ajouter le riz et cuire 1 minute en remuant pour bien l’enrober. Ajouter le vin blanc et laisser réduire presque à sec.",
+"À feu moyen, ajouter le bouillon, environ 250 ml (1 tasse) à la fois, en remuant fréquemment jusqu’à ce que le liquide soit complètement absorbé entre chaque ajout. Saler et poivrer. Cuire de 18 à 22 minutes ou jusqu’à ce que le riz soit al dente. Ajouter du bouillon au besoin.",
+"Hors du feu, ajouter le parmesan, le reste du beurre et la garniture de son choix (artichauts poêlés, petits pois, asperges, crevettes, etc.) Bien mélanger jusqu’à ce que la texture soit très crémeuse. Rectifier l’assaisonnement.",
+"Répartir le risotto dans les bols. Saupoudrer un peu de parmesan, si désiré."
+]
+variantes:[
+"Aux asperges : Pour donner plus de goût au risotto et conserver la texture des asperges, blanchir les asperges dans le bouillon qui servira pour le risotto. On peut aussi les faire griller en morceaux sur une plaque sous le gril. Réserver les morceaux d’asperges pour les ajouter à la fin de la cuisson.",
+"Aux petits pois : Décongeler les petits pois dans l’eau chaude et les égoutter. Ajouter au dernier moment. Très bon avec de la saucisse ou du saucisson piquant en dés.",
+"À la courge Butternut : Faire rôtir les dés de courge avec un peu de beurre dans une poêle. Ajouter vers la fin de la cuisson."
+]
+---
