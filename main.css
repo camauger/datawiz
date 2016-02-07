@@ -99,12 +99,25 @@ figure {
 
 }
 
-ul {
-    text-decoration: none;
-
+dl {
+width: 100%;
+    margin: auto;
 }
 
+dt {
+    display: inline-block;
+    border: 10px solid antiquewhite;
+    background-color: antiquewhite;
+    width: 45%;
+    float: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+dl h2 {
+    text-indent: -10px;
+
+}
 
 .pie {
   display: inline-block;
