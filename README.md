@@ -16,6 +16,8 @@ Exploration de diverses stratégies, systèmes et techniques permettant de passe
 
 ## Esthétisme
 
+- création de material design (univers visuel)
+
 ## Pureté HTML/CSS
 
 - respect du vocabulaire HTML/CSS
@@ -55,6 +57,11 @@ Exploration de diverses stratégies, systèmes et techniques permettant de passe
 
 ## Recettes
 
+
+## Google
+
+- utilisation des données de Google Trends
+- utilisation des données de Google Analytics
 
 # Structure des Data
 
