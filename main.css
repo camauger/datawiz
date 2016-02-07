@@ -60,13 +60,13 @@ section {
 }
 
 
-.fifty-left {
+.visual-stat {
     width: 50%;
     display: block;
     float: left;
 }
 
-.fifty-right{
+.related {
     width: 50%;
     display: block;
     float: right;
@@ -80,6 +80,7 @@ blockquote {
     background-color: whitesmoke;
     float: right;
     display: block;
+
 }
 
 
@@ -93,11 +94,16 @@ figure {
     border: 20px solid beige;
     color: orangered;
     background-color: beige;
-    font-size: 120%;
+    font-size: 110%;
     font-weight: 400;
-    display: block;
 
 }
+
+ul {
+    text-decoration: none;
+
+}
+
 
 
 .pie {
