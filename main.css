@@ -1,4 +1,48 @@
-h1 { font-size: 20px;
-color: red;
-  
+h1 { font-size: 200%;
+    font-weight: 500;
+}
+
+
+body {
+    width: 90%;
+    font-family: "Open Sans", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.metadata {
+
+    background-color: whitesmoke;
+    opacity: 0.9;
+}
+
+.metadata ul {
+    border: 5px solid whitesmoke;
+    list-style: none;
+}
+
+.stat {
+    border: 20px solid beige;
+    color: orangered;
+    background-color: beige;
+    font-size: 120%;
+    font-weight: 400;
+
+}
+
+blockquote {
+    border: 20px solid whitesmoke;
+    font-size: 110%;
+    font-weight: 400;
+    font-style: italic;
+    background-color: whitesmoke;
 }
