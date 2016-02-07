@@ -1,10 +1,12 @@
-h1 { font-size: 300%;
+h1 {
+    font-size: 300%;
     font-weight: 600;
     width: 90%;
     margin: auto;
 }
 
-h2 { font-size: 200%;
+h2 {
+    font-size: 200%;
     font-weight: 500;
     width: 90%;
     margin: auto;
@@ -15,7 +17,6 @@ body {
     font-family: "Open Sans", sans-serif;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 header {
@@ -25,7 +26,6 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 
 section {
     clear: both;
@@ -37,7 +37,6 @@ section {
 }
 
 .metadata {
-
     background-color: whitesmoke;
     opacity: 0.9;
 }
@@ -47,18 +46,13 @@ section {
     list-style: none;
 }
 
-
 .metadata li {
     display: inline;
-
-
-
 }
 
 .metadata li:after {
     content: " / "
 }
-
 
 .visual-stat {
     width: 50%;
@@ -80,9 +74,7 @@ blockquote {
     background-color: whitesmoke;
     float: right;
     display: block;
-
 }
-
 
 figure {
     clear: both;
@@ -96,11 +88,10 @@ figure {
     background-color: beige;
     font-size: 110%;
     font-weight: 400;
-
 }
 
 dl {
-width: 100%;
+    width: 100%;
     margin: auto;
 }
 
@@ -114,108 +105,108 @@ dt {
     margin-bottom: 10px;
 }
 
-dl h2 {
+s dl h2 {
     text-indent: -10px;
-
 }
 
 .pie {
-  display: inline-block;
-  position: relative;
-  width: 1em;
-  height: 1em;
-  background-color: #2f3e46;
-  font-size: 7em;
-  text-align: center;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    background-color: #2f3e46;
+    font-size: 7em;
+    text-align: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .slice-right {
-  position: absolute;
-  z-index: 11;
-  background-color: #ff913b;
-  width: 100%;
-  height: 100%;
-  clip: rect(0, 0.5em, 0.5em, 0.5em);
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+    position: absolute;
+    z-index: 11;
+    background-color: #ff913b;
+    width: 100%;
+    height: 100%;
+    clip: rect(0, 0.5em, 0.5em, 0.5em);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .slice-left {
-  position: absolute;
-  z-index: 11;
-  background-color: #ff913b;
-  width: 100%;
-  height: 100%;
-  clip: rect(0.5em, 0.5em, 1em, 0.5em);
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+    position: absolute;
+    z-index: 11;
+    background-color: #ff913b;
+    width: 100%;
+    height: 100%;
+    clip: rect(0.5em, 0.5em, 1em, 0.5em);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .percent {
-  position: absolute;
-  z-index: 20;
-  top: 3px;
-  right: 3px;
-  bottom: 3px;
-  left: 3px;
-  background: #1d2225;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+    position: absolute;
+    z-index: 20;
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+    background: #1d2225;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .number {
-  position: absolute;
-  z-index: 30;
-  width: 100%;
-  height: 100%;
-  padding-top: 50%;
-  line-height: 0;
-  font-size: .3em;
-  color: #485c65;
+    position: absolute;
+    z-index: 30;
+    width: 100%;
+    height: 100%;
+    padding-top: 50%;
+    line-height: 0;
+    font-size: .3em;
+    color: #485c65;
 }
 
 .slice-right {
-  -webkit-animation-delay: 1.2s;
-  -webkit-animation-duration: 0.3s;
-  -webkit-animation-name: right-slice;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.2s;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-name: right-slice;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
 }
 
 .slice-left {
-  -webkit-animation-delay: 1.5s;
-  -webkit-animation-duration: 0.3s;
-  -webkit-animation-name: left-slice;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease-out;
-  -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-name: left-slice;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes right-slice {
-  from {
-    clip: rect(0, 50%, 0.5em, 0.5em);
-  }
-  50% {
-    clip: rect(0, 1em, 0.5em, 0.5em);
-  }
-  to {
-    clip: rect(0, 1em, 1em, 0.5em);
-  }
+    from {
+        clip: rect(0, 50%, 0.5em, 0.5em);
+    }
+    50% {
+        clip: rect(0, 1em, 0.5em, 0.5em);
+    }
+    to {
+        clip: rect(0, 1em, 1em, 0.5em);
+    }
 }
+
 @-webkit-keyframes left-slice {
-  from {
-    clip: rect(0.5em, 0.5em, 1em, 0.5em);
-  }
-  50% {
-    clip: rect(0.5em, 0.5em, 1em, 0);
-  }
-  to {
-    clip: rect(0.3em, 0.5em, 1em, 0);
-  }
+    from {
+        clip: rect(0.5em, 0.5em, 1em, 0.5em);
+    }
+    50% {
+        clip: rect(0.5em, 0.5em, 1em, 0);
+    }
+    to {
+        clip: rect(0.3em, 0.5em, 1em, 0);
+    }
 }
