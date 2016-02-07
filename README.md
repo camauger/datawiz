@@ -4,7 +4,15 @@ Exploration de diverses stratégies, systèmes et techniques permettant de passe
 
 # Critères de qualité des solutions
 
+
+## Standards
+
+- respect des critères OpQuast (http://opquast.com/fr/)
+
 ## Responsivité
+
+- développement mobile first
+- ne pas négliger les grands écrans
 
 ## Esthétisme
 
