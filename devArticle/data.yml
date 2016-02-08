@@ -1,0 +1,14 @@
+---
+title: Faut-il abandonner WordPress?
+author: "Christian Amauger"
+date: "13 novembre 2015"
+keywords: "Actualités, Web"
+summary: "Article de blogue qui parle de la pertinence de wordpress, ses avantages, ses inconvénients et des alternatives possibles."
+intro: "Chaque jour, plus de 1000 sites opérant avec WordPress sont mis en ligne. Une statistique impressionnante, qui doit nous faire réfléchir sur l’évolution de la place des CMS dans le web."
+figA: {
+  type: figtype
+  data: 25%
+  label: "WordPress est le moteur de 25 % des sites web. Pas seulement le moteur de 25 % des sites qui utilisent un CMS (système de gestion de contenus), mais 1 site sur 4 dans le monde. Point."
+  }
+quoteA: "J’ai longtemps défendu l’utilisation des systèmes de gestion de contenu, et je continue dans le faire dans certains contextes précis. Mais, car il y a un mais, je crois qu’il faut être prudent avant de se lancer dans l’installation d’un WordPress. Tous les sites n’ont pas besoin d’un CMS, loin de là."
+---
